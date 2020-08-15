@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="stylesheet" href="../mame/style.css">
+        <title>ᏆᎧᎹᏅ</title>
     </head>
     <body>
         <canvas id="canvas"></canvas>
@@ -17,8 +18,8 @@
                 null,
                 new JSMAMELoader(
                     JSMAMELoader.driver("pacman"),
-                    JSMAMELoader.nativeResolution(1920, 1080),
-                    JSMAMELoader.scale(3),
+                    JSMAMELoader.nativeResolution(128, 128),
+                    JSMAMELoader.scale(4),
                     JSMAMELoader.emulatorJS("mamepacman.js"),
                     JSMAMELoader.mountFile("pacman.zip", JSMAMELoader.fetchFile("Game File", "pacman.zip")),
                     JSMAMELoader.mountFile("puckman.zip", JSMAMELoader.fetchFile("Game File", "puckman.zip"))         
